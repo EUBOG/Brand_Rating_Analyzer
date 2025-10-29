@@ -4,14 +4,14 @@
 
 ## Установка зависимостей
 
-```bash
+bash
 pip install tabulate pytest
-'''
+
 ## Пример запуска
 
-```bash
+bash
 python report_generator.py --files products1.csv products2.csv --report average-rating
-'''
+
 ## Добавление новых отчётов
 
 1. Добавьте новую функцию generate_<report_name>_report(data).
@@ -20,6 +20,6 @@ python report_generator.py --files products1.csv products2.csv --report average-
 
 ## Тесты
 
-```bash
+bash
 python -m pytest tests/ -v
-'''
+
